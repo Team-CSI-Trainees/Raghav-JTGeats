@@ -1,0 +1,93 @@
+.card{
+    width:250px;
+    height:337px;
+    
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-hook{
+    margin: 1rem 0.5rem 0 0.5rem;
+}
+.card-img{
+    width: 250px;
+    height: 243px;
+    overflow: hidden;
+}
+.card-img img{
+    width: 277px;
+    height: 243px;
+}
+
+
+ .card-text{
+    width:250px;
+    height:94px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .card-inside{
+    width:220px;
+    height:64px;
+    position:relative;
+ }
+ .ratings{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ }
+ #title{
+    position: absolute;
+    top:0;
+    left: 0;
+ }
+ #price{
+    position: absolute;
+    top: 0;
+    right:0;
+ }
+#card-add{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.card-timing{
+    background-color: #F7F8FA;
+    padding: 2px 4px;
+    margin-left: 10px;
+    box-shadow: 3px 0px 1px #949292,-3px 0px 1px #949292;
+    border-radius: 5px;
+}
+.card-ratings{
+    background-color: #F7F8FA;
+    border-radius: 5px;
+    padding: 1px 7px;
+}
+.card-ratings img{
+    margin-right: 3px;
+}
+
+.quantity{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    /* background-color: red; */
+    border:0.5px solid #F3BA00;
+    border-radius: 5px;
+    width:69px;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.quantity img{
+    width:22px;
+    height: 22px;
+}
+.hide-btn{
+    display: none;
+}

@@ -1,0 +1,21 @@
+.menu{
+    width:100%;
+    height: auto;
+    margin:auto;
+    color: black;
+}
+
+.menu-opt{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu-title{
+    margin-top: 5.563rem;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+}
+.menu-title h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}

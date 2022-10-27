@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.home{
+    width:100%;
+    height: auto;
+    background-color: #1AC073;
+    display: flex;
+    justify-content: space-around;
+}
+.cook{
+    width: 25rem;
+    height: 24rem;
+    margin:7rem 2rem 2rem 0;
+
+}
+.home-text{
+    display: flex;
+    width: 33.375rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.home-text h4{
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.home-text p{
+    width:25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 1rem;
+
+}
+.search-btn{
+    width: 25rem;
+    height: 3.2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top:2rem;
+
+}
+.search-btn-text{
+    height:3.25rem;
+    width:17.62rem;
+    border: none;
+    outline: 0;
+    font-size: medium;
+    text-indent: 1rem;
+}
+.search-submit{
+    width:7rem;
+    height:3.2rem;
+    color:white;
+    background-color: #F3BA00;
+    border: none;
+    font-size: medium;
+}
+
+
+@media screen and (max-width:888px){
+    .cook{
+        margin-top: 5rem;
+    }
+    .home-text h4{
+        font-size:3rem;
+    }
+    .search-btn{
+        width:21rem;
+    }
+    .search-btn-text{
+        width:15.8rem;
+    }
+    .search-submit{
+        width:5.1rem;
+    }
+}
+
+
+@media screen and (max-width:812px){
+  .home{
+    flex-direction: column;
+    align-items: center;
+  }
+  .cook{
+    display: none;
+  }
+  .home-text{
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0;
+  }
+  .search-btn{
+    margin-bottom: 3rem;
+  }
+}
+
+
+@media screen and (max-width:555px){
+    .home-text h4{
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (max-width:424px){
+    .home-text h4{
+        font-size: 1.5rem;
+    }
+    .home-text p{
+        font-size:x-small;
+        width:20rem;
+        margin-top: 0.5rem;
+    }
+    .search-btn{
+        width:17rem;
+        height: 3rem;
+        margin-bottom: 2rem;
+      }
+      .search-btn-text{
+        width:12rem;
+        height: 3rem;
+      }
+      .search-submit{
+        width:5rem;
+        height: 3rem;
+      }
+}
