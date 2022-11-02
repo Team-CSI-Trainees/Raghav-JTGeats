@@ -8,7 +8,6 @@
     justify-content: center;
     align-items: center;
     padding:2rem 0;
-    /* position: relative; */
 }
 .carousel h3{
     margin:2rem 0;
@@ -23,8 +22,6 @@
     align-items: center;
 }
 .btn1{
-    /* position: absolute;
-    left: 0; */
     width:25px;
     height:25px;
     padding:20px;
@@ -32,6 +29,7 @@
     background-color:#2EBF91;
     cursor: pointer;
     margin-right: 1rem;
+    box-shadow: 1px 1px 8px black;
 }
 .btn1 img{
     transform: rotate(180deg);
@@ -51,6 +49,7 @@
     border-radius: 50%;
     cursor: pointer;
     margin-left: 1rem;
+    box-shadow: 1px 1px 8px black;
 }
 .btn2 img{
     width:20px;
@@ -125,18 +124,63 @@
  .request-controls{
     margin:3rem 0;
  }
- .request-controls button{
-    margin:0 1rem;
-    padding: 10px 50px;
-    border-radius: 5px;
- }
+
  #cancel{
     background-color: white;
     border: 2px solid #1AC073;
+    margin:0 1rem;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
  }
  #submit{
     background-color: #1AC073;
     border: none;
     color: white;
     padding:12px 50px;
+    margin:0 1rem;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+
+ @media screen and (max-width:1131px) {
+   .slider1{
+      display:none;
+   }
+   .slider3{
+      display: none;
+   }
+   .btn1{
+      margin-left: 10rem;
+   }
+   .btn2{
+      margin-right: 10rem;
+   }
+ }
+ @media screen and (max-width:413px) {
+   .btn1{
+      width: 10px;
+      height: 10px;
+      position:relative;
+      left:2rem
+   }
+   .btn2{
+      width: 10px;
+      height: 10px;
+      position: relative;
+      right:2rem;
+   }
+   .btn1 img{
+      position: relative;
+      bottom:10px;
+      right:7px;
+
+   }
+   .btn2 img{
+      position: relative;
+      bottom:10px;
+      /* right:20px; */
+      left:-3px
+   }
  }

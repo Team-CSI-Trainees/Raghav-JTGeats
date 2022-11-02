@@ -103,3 +103,6 @@ video{
         left:1px;
     }
 }
+.hide{
+    display: none;
+}

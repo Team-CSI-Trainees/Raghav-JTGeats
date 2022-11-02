@@ -1,4 +1,5 @@
 import React from "react";
+import {Routes,Route} from "react-router-dom";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import "./App.css";
@@ -12,12 +13,20 @@ const App =() =>{
     return (
         <div>
             <Navbar/>
-            <Home/>
+            {/* <Home/>
             <Menu/>
             <Carousel/>
             <Video/>
             <Contact/>
-            <Footer/>
+            <Footer/> */}
+       
+        <Routes>
+           <Route path="/" element={<Home/>}/>
+           <Route path="/about" element={<Carousel/>}/>
+           <Route path="/menu" element={<Menu/>}/>
+           <Route path="/blog" element={<Video/>}/>
+           <Route path="/contact" element={<Contact/>}/>
+        </Routes>
         </div>
     )
 };
