@@ -71,9 +71,9 @@
     background-color:rgb(117, 114, 114);
     width:100vw;
     height:100vh;
-    position: absolute;
+    position: fixed;
     top:0;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     align-items:center;
     justify-content: center;
@@ -113,7 +113,7 @@
     width:100vw;
     height:100vh;
     background-color: rgba(0, 0, 0, 0.644);
-    position: absolute;
+    position: fixed;
     top: 0;
     display: flex;
     justify-content: center;

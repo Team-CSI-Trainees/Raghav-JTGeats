@@ -30,7 +30,7 @@ const Navbar = () => {
           <a href="" className="navbar-logo"><img src={logo} alt="" /></a>
           <div className={OpenMenu ?"navbar-list view actives" :"navbar-list"}>
           <ul>
-            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/">Home</NavLink></li> 
             <li><NavLink to="/about">About</NavLink></li>
             <li><NavLink to="/menu">Menu</NavLink></li>
             <li><NavLink to="/blog">Blog</NavLink></li>

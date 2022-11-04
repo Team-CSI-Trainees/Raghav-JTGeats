@@ -7,6 +7,7 @@ import Menu from "./Menu";
 import Video from "./Video";
 import Carousel from "./Carousel";
 import Contact from "./Contact";
+import Landingsection from "./LandingSection";
 import Footer from "./Footer";
 
 const App =() =>{
@@ -17,16 +18,18 @@ const App =() =>{
             <Menu/>
             <Carousel/>
             <Video/>
-            <Contact/>
-            <Footer/> */}
+            <Contact/> */}
+           
        
         <Routes>
-           <Route path="/" element={<Home/>}/>
+           <Route path="/" element={<Landingsection/>}/>
            <Route path="/about" element={<Carousel/>}/>
            <Route path="/menu" element={<Menu/>}/>
            <Route path="/blog" element={<Video/>}/>
            <Route path="/contact" element={<Contact/>}/>
         </Routes>
+
+        <Footer/>
         </div>
     )
 };
