@@ -38,7 +38,7 @@ const Navbar = () => {
           </ul>
           </div>
           <div className="navbar-card">
-            <div className="search-btns"><img src={search} alt="" /></div >
+            <div className="search-btns"><a href="https://www.zomato.com/"><img src={search} alt="" /></a></div >
             <div className="cart-btns"><img src={cart} alt="" onClick={()=>setmycartdisplay(true) & checkcart()}/></div >
           </div>
           <FontAwesomeIcon  icon={faBars} className="menu-btn" onClick={() => setOpenMenu(true)}/>

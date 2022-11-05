@@ -63,6 +63,8 @@ const Carousel =() =>{
       else
       setk(k-1);
     };
+
+    
     const next=() =>{
       if(i==Slidedata.length-1)
       seti(0);

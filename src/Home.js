@@ -10,7 +10,7 @@ const Home=() =>{
                 <p>JTGeats is a courier service in which authentic home food is delivered to a customer.</p>
                 <div className="search-btn">
                     <input type="text" className="search-btn-text" placeholder="Search food you love" />
-                    <input type="submit" className="search-submit" name="" id="" value="Search" />
+                    <a href="https://www.zomato.com/"><input type="submit" className="search-submit" name="" id="" value="Search" /></a>
                 </div>
             </div>
             <img src={cook} className="cook" alt="" />
