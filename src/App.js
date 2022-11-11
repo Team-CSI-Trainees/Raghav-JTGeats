@@ -21,13 +21,15 @@ const App =() =>{
             <Contact/> */}
            
        
-        <Routes>
-           <Route path="/Raghav-JTGeats" element={<Landingsection/>}/>
-           <Route path="/Raghav-JTGeats/about" element={<Carousel/>}/>
-           <Route path="/Raghav-JTGeats/menu" element={<Menu/>}/>
-           <Route path="/Raghav-JTGeats/blog" element={<Video/>}/>
-           <Route path="/Raghav-JTGeats/contact" element={<Contact/>}/>
-        </Routes>
+        <BrowserRouter>
+            <Routes>
+               <Route path="/Raghav-JTGeats" element={<Landingsection/>}/>
+               <Route path="/Raghav-JTGeats/about" element={<Carousel/>}/>
+               <Route path="/Raghav-JTGeats/menu" element={<Menu/>}/>
+               <Route path="/Raghav-JTGeats/blog" element={<Video/>}/>
+               <Route path="/Raghav-JTGeats/contact" element={<Contact/>}/>
+            </Routes>
+        </BrowserRouter>
 
         <Footer/>
         </div>
