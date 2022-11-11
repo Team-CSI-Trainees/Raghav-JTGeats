@@ -22,11 +22,11 @@ const App =() =>{
            
        
         <Routes>
-           <Route path="/" element={<Landingsection/>}/>
-           <Route path="/about" element={<Carousel/>}/>
-           <Route path="/menu" element={<Menu/>}/>
-           <Route path="/blog" element={<Video/>}/>
-           <Route path="/contact" element={<Contact/>}/>
+           <Route path="/Raghav-JTGeats" element={<Landingsection/>}/>
+           <Route path="/Raghav-JTGeats/about" element={<Carousel/>}/>
+           <Route path="/Raghav-JTGeats/menu" element={<Menu/>}/>
+           <Route path="/Raghav-JTGeats/blog" element={<Video/>}/>
+           <Route path="/Raghav-JTGeats/contact" element={<Contact/>}/>
         </Routes>
 
         <Footer/>

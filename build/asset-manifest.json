@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Raghav-JTGeats/static/css/main.f5054728.css",
+    "main.js": "/Raghav-JTGeats/static/js/main.cd193f75.js",
+    "static/media/foodvideo.mp4": "/Raghav-JTGeats/static/media/foodvideo.32f11d74ea5dccb583dd.mp4",
+    "static/media/menuimg1.png": "/Raghav-JTGeats/static/media/menuimg1.b492d9c062f6394a323e.png",
+    "static/media/menuimg2.png": "/Raghav-JTGeats/static/media/menuimg2.78cbabb1a84d443942f9.png",
+    "static/media/menuimg7.png": "/Raghav-JTGeats/static/media/menuimg7.6d5258dc1b7121697bfe.png",
+    "static/media/menuimg5.png": "/Raghav-JTGeats/static/media/menuimg5.e58a01d039c685eb3c71.png",
+    "static/media/menuimg4.png": "/Raghav-JTGeats/static/media/menuimg4.a421a1033d4d26b49298.png",
+    "static/media/menuimg8.png": "/Raghav-JTGeats/static/media/menuimg8.14ae83372a2026766acc.png",
+    "static/media/menuimg6.png": "/Raghav-JTGeats/static/media/menuimg6.f617c16afdbbe12e5c3f.png",
+    "static/media/menuimg3.png": "/Raghav-JTGeats/static/media/menuimg3.bca84d2c537f96eeb096.png",
+    "static/media/foodboy.png": "/Raghav-JTGeats/static/media/foodboy.81349da040cf4beff45a.png",
+    "static/media/cooking.png": "/Raghav-JTGeats/static/media/cooking.1adcab1242b097050232.png",
+    "static/media/menu.png": "/Raghav-JTGeats/static/media/menu.b641b2ee66cc66c4507a.png",
+    "index.html": "/Raghav-JTGeats/index.html",
+    "main.f5054728.css.map": "/Raghav-JTGeats/static/css/main.f5054728.css.map",
+    "main.cd193f75.js.map": "/Raghav-JTGeats/static/js/main.cd193f75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5054728.css",
+    "static/js/main.cd193f75.js"
+  ]
+}
