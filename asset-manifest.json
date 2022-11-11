@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Raghav-JTGeats/static/css/main.f5054728.css",
-    "main.js": "/Raghav-JTGeats/static/js/main.cd193f75.js",
+    "main.css": "/Raghav-JTGeats/static/css/main.f4b5e12d.css",
+    "main.js": "/Raghav-JTGeats/static/js/main.60ae5783.js",
     "static/media/foodvideo.mp4": "/Raghav-JTGeats/static/media/foodvideo.32f11d74ea5dccb583dd.mp4",
     "static/media/menuimg1.png": "/Raghav-JTGeats/static/media/menuimg1.b492d9c062f6394a323e.png",
     "static/media/menuimg2.png": "/Raghav-JTGeats/static/media/menuimg2.78cbabb1a84d443942f9.png",
@@ -15,11 +15,11 @@
     "static/media/cooking.png": "/Raghav-JTGeats/static/media/cooking.1adcab1242b097050232.png",
     "static/media/menu.png": "/Raghav-JTGeats/static/media/menu.b641b2ee66cc66c4507a.png",
     "index.html": "/Raghav-JTGeats/index.html",
-    "main.f5054728.css.map": "/Raghav-JTGeats/static/css/main.f5054728.css.map",
-    "main.cd193f75.js.map": "/Raghav-JTGeats/static/js/main.cd193f75.js.map"
+    "main.f4b5e12d.css.map": "/Raghav-JTGeats/static/css/main.f4b5e12d.css.map",
+    "main.60ae5783.js.map": "/Raghav-JTGeats/static/js/main.60ae5783.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5054728.css",
-    "static/js/main.cd193f75.js"
+    "static/css/main.f4b5e12d.css",
+    "static/js/main.60ae5783.js"
   ]
 }
