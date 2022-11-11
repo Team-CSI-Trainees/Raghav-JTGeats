@@ -30,11 +30,11 @@ const Navbar = () => {
           <a href="" className="navbar-logo"><img src={logo} alt="" /></a>
           <div className={OpenMenu ?"navbar-list view actives" :"navbar-list"}>
           <ul>
-            <li><NavLink to="/Raghav-JTGeats">Home</NavLink></li> 
-            <li><NavLink to="/Raghav-JTGeats/about">About</NavLink></li>
-            <li><NavLink to="/Raghav-JTGeats/menu">Menu</NavLink></li>
-            <li><NavLink to="/Raghav-JTGeats/blog">Blog</NavLink></li>
-            <li><NavLink to="/Raghav-JTGeats/contact">Contact</NavLink></li>
+            <li><NavLink to="">Home</NavLink></li> 
+            <li><NavLink to="/about">About</NavLink></li>
+            <li><NavLink to="/menu">Menu</NavLink></li>
+            <li><NavLink to="/blog">Blog</NavLink></li>
+            <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
           </div>
           <div className="navbar-card">

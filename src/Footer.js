@@ -10,11 +10,11 @@ const Footer =()=>{
         <div className="footer">
             <img src={JTGeats} alt="" />
             <ul>
-            <li><NavLink to="/Raghav-JTGeats">Home</NavLink></li> 
-            <li><NavLink to="/Raghav-JTGeats/about">About</NavLink></li>
-            <li><NavLink to="/Raghav-JTGeats/menu">Menu</NavLink></li>
-            <li><NavLink to="/Raghav-JTGeats/blog">Blog</NavLink></li>
-            <li><NavLink to="/Raghav-JTGeats/contact">Contact</NavLink></li>
+            <li><NavLink to="">Home</NavLink></li> 
+            <li><NavLink to="/about">About</NavLink></li>
+            <li><NavLink to="/menu">Menu</NavLink></li>
+            <li><NavLink to="/blog">Blog</NavLink></li>
+            <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
             <div className="social-media">
             <a href=""><div><img src={facebook} alt="" /></div></a>
