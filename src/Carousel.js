@@ -83,6 +83,11 @@ const Carousel =() =>{
   }
 
   const [request,setrequest]=useState(false);
+  const submitrequest=()=>{
+      
+      alert("Your request is submitted successfully.");
+      setrequest(false);
+  }
     
     return(
         <section className="carousel">
@@ -133,8 +138,8 @@ const Carousel =() =>{
                    <input type="text" placeholder="   Paste a URL"/>
                    </div>
                    <div className="request-controls">
-                     <Link to="/home" id={request?"cancel":"close"} onClick={()=>setrequest(false)}>Cancel</Link>
-                     <Link to="/home" id={request?"submit":"close"} onClick={()=>setrequest(false)}>Submit Request</Link>
+                     <Link to="/" id="cancel" onClick={request?"close":"cancel"}>Cancel</Link>
+                     <Link to="/" id="submit" onClick={submitrequest}>Submit Request</Link>
                    </div>
                 </div>
              </div>

@@ -9,10 +9,7 @@ const Card =(props) =>{
 
     const [q,setq]=useState(1);
     const [openquantity,setopenquantity]=useState(false);
-    const [addquantity,setaddquantity]=useState({id:1,
-        name:props.title,
-        quantity:1,
-        price:props.price});
+    const [additem,setadditem]=useState(Mycartdata);
 
 
     const increase=()=>{
@@ -20,23 +17,39 @@ const Card =(props) =>{
         setq(10);
         else
         setq(q+1);
-        console.log(q);
-        setaddquantity({id:1,
-            name:props.title,
-            quantity:q+1,
-            price:props.price});
-        Mycartdata.push(addquantity);
+        // addtocart();
     }
+    
     const decrease=()=>{
         if(q==1)
         setopenquantity(false);
+        else
         setq(q-1);
-        // setaddquantity({id:1,
-        //     name:props.title,
-        //     quantity:q+1,
-        //     price:props.price});
-        // Mycartdata.push(addquantity);
+        // addtocart();
     }
+
+
+    // const addtocart=(newitem)=>{
+    //     const updateditem=[newitem,...additem];
+    //     setadditem(updateditem);
+    //     console.log(additem);
+    // }
+
+    const addtocart = ()=>{
+        console.log(q);
+        setadditem(
+            {
+                name:props.title,
+                quantity:q,
+                price:props.price,
+            }
+        )
+        console.log(additem);
+        // Mycartdata.push(additem);
+    }
+        
+
+   
     return (
         <div className="card">
             <div className="card-img">
@@ -57,11 +70,11 @@ const Card =(props) =>{
                             <span>50-79 min</span>
                         </div>
                     </div>
-                    <img className={openquantity?"hide-btn":""} id="card-add"src={add} onClick={()=>setopenquantity(true) & increase()} alt="" />
+                    <img className={openquantity?"hide-btn":""} id="card-add"src={add} onClick={()=>setopenquantity(true) & setq(1)} alt="" />
 
                     <div className={openquantity ? "quantity" : "hide-btn" }>
                         <img src={subbtn} onClick={decrease} alt="" />
-                        <p className="quantity-no">{q-1}</p>
+                        <p className="quantity-no">{q}</p>
                         <img src={addbtn} onClick={increase} alt="" />
                     </div>
                 </div>
