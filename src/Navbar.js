@@ -9,7 +9,7 @@ import emptybag from "./images/emptybag.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import Mycart from "./Mycart";
 import Mycartdata from "./Mycartdata";
 
@@ -17,12 +17,18 @@ const Navbar = () => {
   const [OpenMenu,setOpenMenu]=useState(false);
   const[mycartdisplay,setmycartdisplay]=useState(false);
   const[emptycart,setemptycart]=useState(false);
+  const navigate=useNavigate();
 
   const checkcart=()=>{
   if(Mycartdata.length==0)
   setemptycart(true);
   else
   setemptycart(false);
+  }
+
+  const hideCart=()=>{
+    setmycartdisplay(false);
+    navigate("./Raghav-JTGeats/menu")
   }
     return (
      
@@ -51,7 +57,7 @@ const Navbar = () => {
                 <img src={emptybag}/>
                 <h3>Cart is Empty</h3>
                 <p>Add some items to the cart to checkout.</p>
-                <Link to="/menu" id="back-menu" onClick={()=>mycartdisplay(false)}>Back to Menu</Link>
+                <button id="back-menu" onClick={hideCart}>Back to Menu</button>
               </div>
               <div className={emptycart?"hide":"fullbag"}>
              <div className="item-display">
@@ -79,7 +85,7 @@ const Navbar = () => {
                 return (<Mycart itemname={val.name} itemquantity={val.quantity} itemprice={val.price}/>)
                })
               }
-              <Link to="/menu" id="back-menu" onClick={()=>mycartdisplay(false)}>Back to Menu</Link>
+              <button id="back-menu" onClick={hideCart}>Back to Menu</button>
               </div>
             </div>
           </div>
